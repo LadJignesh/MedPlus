@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor's Name:" />
+
+    <EditText
+        android:id="@+id/et_docName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor's Name"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Specialization:" />
+
+    <EditText
+        android:id="@+id/et_specialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor Specialization"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email ID:" />
+
+    <EditText
+        android:id="@+id/et_docEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor's Email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No.:" />
+
+    <EditText
+        android:id="@+id/et_docMob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor's Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/bt_updateDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Med"
+        android:text="Update  Doctor"
+        android:textColor="@color/cast_expanded_controller_progress_text_color"
+        android:textSize="24sp" />
+
+</LinearLayout>

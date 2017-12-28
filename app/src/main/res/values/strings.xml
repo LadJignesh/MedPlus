@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MedPlus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="dose">Dose</string>
+    <string name="title_activity_maps__pharmacy">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string-array name="medType">
+        <item>Tablet</item>
+        <item>Syrup</item>
+    </string-array>
+    <string-array name="frequency">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+    <string-array name="alarmtune">
+        <item>Tune 1</item>
+        <item>Tune 2</item>
+        <item>Tune 3</item>
+        <item>Tune 4</item>
+        <item>Tune 5</item>
+    </string-array>
+    <string name="title_activity_send_report">SendReport</string>
+</resources>

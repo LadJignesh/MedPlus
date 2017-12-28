@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:orientation="vertical"
+    tools:context="com.example.jigneshlad.medplus.SendReportDoctor">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND REPORT TO  DOCTOR"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Spinner
+        android:id="@+id/sp_docname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        />
+
+
+    <EditText
+        android:id="@+id/et_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName"
+        android:text="Medicine Status"/>
+    <EditText
+        android:id="@+id/et_emailbody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="200dp"
+        android:ems="10"
+        android:hint="Email Body"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/bt_sendemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Med"
+        android:text="Send Report"
+        android:textColor="@color/cast_expanded_controller_progress_text_color"
+        android:textSize="24sp" />
+</LinearLayout>

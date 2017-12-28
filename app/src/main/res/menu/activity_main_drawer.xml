@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Your Medicines" />
+        <!--<item
+            android:id="@+id/nav_Medicines"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Medicine Detials" />-->
+        <item
+            android:id="@+id/nav_pharmacy"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Locate Pharmacy" />
+        <item
+            android:id="@+id/nav_doctorDetails"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add/Update Doctor" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_sendreport"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send Report" />
+            <item
+                android:id="@+id/nav_req_med"
+                android:icon="@drawable/quantum_ic_play_arrow_grey600_48"
+                android:title="Request Medicine" />
+        </menu>
+    </item>
+
+</menu>

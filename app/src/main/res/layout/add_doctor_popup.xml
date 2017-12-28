@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/et_docName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor's Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_specialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor Specialization"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_docEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor's Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_docMob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor's Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/bt_addDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Med"
+        android:text="Add  Doctor"
+        android:textColor="@color/cast_expanded_controller_progress_text_color"
+        android:textSize="24sp" />
+
+</LinearLayout>

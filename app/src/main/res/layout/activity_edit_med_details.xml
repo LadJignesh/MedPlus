@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jigneshlad.medplus.AddMedicine">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/fab_margin">
+
+
+        <EditText
+            android:id="@+id/et_MedName_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_StartDate_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="left"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:hint="Start Date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/et_EndDate_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="left"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:hint="End Date"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicine Type" />
+
+        <Spinner
+            android:id="@+id/sp_MedicineType_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/btn_dropdown"
+            android:contextClickable="false"
+            android:hint="Type"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dose" />
+
+        <EditText
+            android:id="@+id/et_DoseTime_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="left"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:hint="Dose Time"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequency (No of times a day)" />
+
+        <Spinner
+            android:id="@+id/sp_frequency_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+
+        <TextView
+            android:id="@+id/tv_Alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarm Settings" />
+
+        <Spinner
+            android:id="@+id/sp_alarm_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:drawable/btn_dropdown"
+            android:autofillHints="Select a alarm tone"
+            android:spinnerMode="dropdown" />
+
+
+
+    </LinearLayout>
+</ScrollView>
